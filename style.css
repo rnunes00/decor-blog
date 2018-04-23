@@ -12,8 +12,8 @@ body {
 }
 
 #main-title-span {
-    color: #48D1CC;
-    font-size: 40px;
+    color: #FFC300;
+    font-size: 35px;
 }
 
 #top-nav {
@@ -21,8 +21,13 @@ body {
     padding: 0px 30px;
 }
 
+
 #btm-nav {
     text-align: center;
+}
+
+.btm-links {
+    font-size: 15px;
 }
 
 #main-pic {
@@ -38,7 +43,7 @@ a {
 #new-content {
     display: flex;
     align-content: center;
-    padding: 30px 0px 60px 0px;
+    padding: 20px 0px 60px 0px;
 }
 
 figure {
@@ -60,11 +65,6 @@ figcaption {
     font-family: 'Nixie One', cursive;
 }
 
-/* figcaption:hover {
-    font-size: 20px;
-} */
-
-
 ul {
     list-style-type: none;
     display: inline-block;
@@ -81,7 +81,7 @@ img {
 
 .articles {
     display: flex;
-    margin: 50px 20px;
+    margin: 50px 10px;
 }
 
 section {
@@ -103,7 +103,7 @@ a {
 .top-links:hover {
     color: grey;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     background-color: RGBa(242, 243, 244, 0.3)
 }
 
@@ -111,6 +111,11 @@ a {
     color: grey;
 }
 
+.cont-links {
+    font-size: 15px;
+    /* align-content: right; */
+    align-self: right;
+}
 .cont-links:hover {
     text-decoration-line: underline;
     /* color: grey; */
@@ -134,4 +139,32 @@ a {
 #site-name:hover {
     cursor: pointer;
     font-size: 40px;
+}
+
+#connect-icons {
+    align-self: center;
+}
+
+/* .fa:hover {
+    opacity: 0.4;
+} */
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+}
+
+#connect-icons {
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+}
+
+icon:hover .fa {
+    opacity: 0.5;
+
+}
+
+p:first-letter {
+    font-weight: bolder;
 }
