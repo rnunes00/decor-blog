@@ -109,8 +109,7 @@ a {
     color: grey;
     cursor: pointer;
     font-size: 20px;
-    background-color: RGBa(255, 215, 0, 0.3)
-    /* RGBa(242, 243, 244, 0.3) */
+    background-color: RGBa(242, 243, 244, 0.3)
 }
 
 .btm-links:hover {
@@ -154,8 +153,9 @@ a {
 }
 
 a.connect-icons:hover .title {
-    display:block;
+    display: block;
 }
+
 .fa {
     padding: 5px;
     font-size: 30px;
